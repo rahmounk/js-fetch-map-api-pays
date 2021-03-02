@@ -43,7 +43,7 @@ searchInput.addEventListener("input", (e) => {searchTerm = e.target.value
 
 });
 
-// espacer le nombre de population pour qu'il ne soit pas collé
+// espacer le nombre de population pour qu'il ne soit pas collé!
 function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
